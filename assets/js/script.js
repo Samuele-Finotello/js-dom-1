@@ -8,11 +8,13 @@ button.addEventListener('click', function () {
     lampOff.classList.remove('display-inline-block');
     lampOn.classList.add('display-inline-block');
     lampOn.classList.remove('display-none');
+    button.innerHTML = 'Spegni';
   }
   else {
     lampOff.classList.remove('display-none');
     lampOff.classList.add('display-inline-block');
     lampOn.classList.remove('display-inline-block');
     lampOn.classList.add('display-none');
+    button.innerHTML = 'Accendi';
   }
 });
