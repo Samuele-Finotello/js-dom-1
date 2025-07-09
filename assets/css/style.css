@@ -2,6 +2,10 @@
   display: none;
 }
 
+.display-inline-block {
+  display: inline-block;
+}
+
 button:hover {
   cursor: pointer;
 }
